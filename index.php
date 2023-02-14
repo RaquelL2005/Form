@@ -9,18 +9,22 @@
 </head>
 <body>
 	<div class="alert alert-primary" role="alert">Gerrenciar Funcionários</div>
-     <div class="container"> 
-	<form action="crud.php" method="post">
-		Nome : <input type="text" name="nome"> <br><br>
-		E-mail : <input type="email" name="email"> <br><br>
-		CPF : <input type="text" name="CPF"> <br><br>
-		Telefone : <input type="tel" name="telefone"> <br><br>
-		<button class="btn btn-primary">Cadastrar</button>
-		<button>Alterar</button>
-		<button>Excluir</button>
-		<button>Pesquisar</button>
+    <div class="container"> 
+		<form action="crud.php" method="post">
+			<img src="pocoyo.jpg" class="img-thumbnail rounded float-end img-fluid" alt="Pocoyo com a bandeira do Japão" width="200px" height="200px" style="float: right;margin-right: 40%;">
+			Nome : <input type="text" name="nome"> <br><br>
+			E-mail : <input type="email" name="email"> <br><br>
+			CPF : <input type="text" name="CPF"> <br><br>
+			Telefone : <input type="tel" name="telefone"> <br><br>
+			
+			<button class="btn btn-outline-primary">Cadastrar</button>
+			<button class="btn btn-outline-danger">Alterar</button>
+			<button class="btn btn-outline-warning">Excluir</button>
+			<button class="btn btn-outline-info" >Pesquisar</button>
 
-</div>
+		</form>
+		
+	</div>
 
 </body>
 </html>
